@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --secondary-bg: #fafafa;
+  --card-bg: #ffffff;
+  --border-color: #e5e7eb;
+  --primary-text: #111827;
+  --secondary-text: #6b7280;
+  --accent-color: #2563eb;
+  --success-color: #10b981;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-secbg: var(--secondary-bg);
+  --color-cardbg: var(--card-bg);
+  --color-border-custom: var(--border-color);
+  --color-primtext: var(--primary-text);
+  --color-sectext: var(--secondary-text);
+  --color-accent: var(--accent-color);
+  --color-success: var(--success-color);
+  
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-mono, monospace;
+}
+
+/* Base resets & layout settings */
+* {
+  border-color: var(--border-color);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--secondary-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 9999px;
+  border: 2px solid var(--secondary-bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+.text-hero {
+  font-size: clamp(3.5rem, 6vw, 5rem); /* 56px to 80px */
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.text-section {
+  font-size: clamp(2.25rem, 4vw, 3.25rem); /* 36px to 52px */
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.text-body-premium {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75;
+  color: var(--secondary-text);
+}
