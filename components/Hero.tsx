@@ -110,72 +110,72 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
               <svg className="w-full h-full" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
                 {/* Connections paths from Sources (Left) to Data Vault (Center) */}
                 {/* Source 1 (Top Left) to Vault */}
-                <path d="M 130 88 Q 260 88 260 225" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 130 88 Q 260 88 260 225" stroke="#3B82F6" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 150 88 Q 260 88 260 225" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 150 88 Q 260 88 260 225" stroke="#3B82F6" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Source 2 (Mid Left) to Vault */}
-                <path d="M 130 225 H 260" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 130 225 H 260" stroke="#3B82F6" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 150 225 H 260" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 150 225 H 260" stroke="#3B82F6" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Source 3 (Bottom Left) to Vault */}
-                <path d="M 130 362 Q 260 362 260 225" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 130 362 Q 260 362 260 225" stroke="#3B82F6" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 150 362 Q 260 362 260 225" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 150 362 Q 260 362 260 225" stroke="#3B82F6" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Connections paths from Data Vault (Center) to Downstream Apps (Right) */}
                 {/* Vault to App 1 (Top Right) */}
-                <path d="M 340 225 Q 340 60 470 60" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 340 225 Q 340 60 470 60" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 340 225 Q 340 60 450 60" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 340 225 Q 340 60 450 60" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Vault to App 2 (Mid-High Right) */}
-                <path d="M 340 225 Q 340 142.5 470 142.5" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 340 225 Q 340 142.5 470 142.5" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 340 225 Q 340 142.5 450 142.5" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 340 225 Q 340 142.5 450 142.5" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Vault to App 3 (Center Right) */}
-                <path d="M 340 225 H 470" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 340 225 H 470" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 340 225 H 450" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 340 225 H 450" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Vault to App 4 (Mid-Low Right) */}
-                <path d="M 340 225 Q 340 307.5 470 307.5" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 340 225 Q 340 307.5 470 307.5" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 340 225 Q 340 307.5 450 307.5" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 340 225 Q 340 307.5 450 307.5" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Vault to App 5 (Bottom Right) */}
-                <path d="M 340 225 Q 340 390 470 390" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
-                <motion.path d="M 340 225 Q 340 390 470 390" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
+                <path d="M 340 225 Q 340 390 450 390" stroke="#E2E8F0" strokeWidth="2" strokeLinecap="round" />
+                <motion.path d="M 340 225 Q 340 390 450 390" stroke="#10B981" strokeWidth="2.5" strokeDasharray="8 12" fill="none" animate={pulseTransition} />
 
                 {/* Left Nodes: ERP, IoT, Web Portals */}
-                <foreignObject x="15" y="60" width="115" height="56" className="overflow-visible">
+                <foreignObject x="15" y="60" width="135" height="56" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0 border border-blue-100/50">
                       <Server className="w-3.5 h-3.5" />
                     </div>
-                    <span className="truncate">ERP & DMS</span>
+                    <span className="whitespace-nowrap">ERP & DMS</span>
                   </motion.div>
                 </foreignObject>
 
-                <foreignObject x="15" y="197" width="115" height="56" className="overflow-visible">
+                <foreignObject x="15" y="197" width="135" height="56" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-cyan-50 text-cyan-600 flex items-center justify-center flex-shrink-0 border border-cyan-100/50">
                       <Car className="w-3.5 h-3.5" />
                     </div>
-                    <span className="truncate">IoT Vehicles</span>
+                    <span className="whitespace-nowrap">IoT Vehicles</span>
                   </motion.div>
                 </foreignObject>
 
-                <foreignObject x="15" y="334" width="115" height="56" className="overflow-visible">
+                <foreignObject x="15" y="334" width="135" height="56" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center flex-shrink-0 border border-indigo-100/50">
                       <Globe className="w-3.5 h-3.5" />
                     </div>
-                    <span className="truncate">Web Portals</span>
+                    <span className="whitespace-nowrap">Web Portals</span>
                   </motion.div>
                 </foreignObject>
 
@@ -204,53 +204,53 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 </foreignObject>
 
                 {/* Right Nodes: CRM, Finance, Sales, KCP, WhatsApp */}
-                <foreignObject x="470" y="35" width="115" height="50" className="overflow-visible">
+                <foreignObject x="450" y="35" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-emerald-100/50">C</div>
-                    <span className="truncate">CRM Suite</span>
+                    <span className="whitespace-nowrap">CRM Suite</span>
                   </motion.div>
                 </foreignObject>
 
-                <foreignObject x="470" y="117.5" width="115" height="50" className="overflow-visible">
+                <foreignObject x="450" y="117.5" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-purple-100/50">F</div>
-                    <span className="truncate">Finance</span>
+                    <span className="whitespace-nowrap">Finance</span>
                   </motion.div>
                 </foreignObject>
 
-                <foreignObject x="470" y="200" width="115" height="50" className="overflow-visible">
+                <foreignObject x="450" y="200" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-blue-100/50">S</div>
-                    <span className="truncate">Sales Mgmt</span>
+                    <span className="whitespace-nowrap">Sales Mgmt</span>
                   </motion.div>
                 </foreignObject>
 
-                <foreignObject x="470" y="282.5" width="115" height="50" className="overflow-visible">
+                <foreignObject x="450" y="282.5" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-amber-100/50">K</div>
-                    <span className="truncate">KCP Plans</span>
+                    <span className="whitespace-nowrap">KCP Plans</span>
                   </motion.div>
                 </foreignObject>
 
-                <foreignObject x="470" y="365" width="115" height="50" className="overflow-visible">
+                <foreignObject x="450" y="365" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2.5 px-3 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-green-50 text-green-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-green-100/50">W</div>
-                    <span className="truncate">WhatsApp</span>
+                    <span className="whitespace-nowrap">WhatsApp</span>
                   </motion.div>
                 </foreignObject>
               </svg>
