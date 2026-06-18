@@ -146,7 +146,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="15" y="60" width="135" height="56" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0 border border-blue-100/50">
                       <Server className="w-3.5 h-3.5" />
@@ -158,7 +158,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="15" y="197" width="135" height="56" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-cyan-50 text-cyan-600 flex items-center justify-center flex-shrink-0 border border-cyan-100/50">
                       <Car className="w-3.5 h-3.5" />
@@ -170,7 +170,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="15" y="334" width="135" height="56" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center flex-shrink-0 border border-indigo-100/50">
                       <Globe className="w-3.5 h-3.5" />
@@ -197,7 +197,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                     >
                       <Database className="w-7 h-7 text-blue-400" />
                     </motion.div>
-                    <div className="mt-1.5 text-[9px] font-extrabold text-slate-900 bg-white/95 px-2 py-0.5 rounded-full border border-slate-200/80 shadow-sm whitespace-nowrap">
+                    <div className="mt-1.5 text-[9px] font-extrabold text-slate-900 bg-white/95 px-2 py-0.5 rounded-full border border-slate-200/80 shadow-sm whitespace-nowrap font-sans">
                       DATA VAULT
                     </div>
                   </div>
@@ -207,7 +207,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="450" y="35" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-emerald-100/50">C</div>
                     <span className="whitespace-nowrap">CRM Suite</span>
@@ -217,7 +217,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="450" y="117.5" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-purple-100/50">F</div>
                     <span className="whitespace-nowrap">Finance</span>
@@ -227,7 +227,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="450" y="200" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-blue-100/50">S</div>
                     <span className="whitespace-nowrap">Sales Mgmt</span>
@@ -237,7 +237,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="450" y="282.5" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-amber-100/50">K</div>
                     <span className="whitespace-nowrap">KCP Plans</span>
@@ -247,7 +247,7 @@ export default function Hero({ onBookDemoClick }: HeroProps) {
                 <foreignObject x="450" y="365" width="135" height="50" className="overflow-visible">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default"
+                    className="w-full h-full rounded-xl bg-white border border-slate-200/80 shadow-md flex items-center gap-2 px-2.5 text-[10px] font-bold text-slate-800 select-none cursor-default font-sans"
                   >
                     <div className="w-5.5 h-5.5 rounded-lg bg-green-50 text-green-600 flex items-center justify-center text-[11px] font-extrabold flex-shrink-0 border border-green-100/50">W</div>
                     <span className="whitespace-nowrap">WhatsApp</span>
