@@ -15,7 +15,7 @@ export default function AutomotiveIndustry() {
     },
     {
       id: "service",
-      title: "Car Service Centers",
+      title: "Auto Service Centers",
       description: "Automate routine service checkups, maintenance scheduling, and KCP tracking. Deliver reminders directly through WhatsApp campaigns.",
       icon: <Layers className="w-5 h-5 text-emerald-600" />,
       tag: "Maintenance Hubs"

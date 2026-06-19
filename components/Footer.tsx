@@ -33,7 +33,7 @@ export default function Footer({ onBookDemoClick }: FooterProps) {
       title: "Industries",
       links: [
         { name: "Franchised Dealerships", href: "#industries" },
-        { name: "Car Service Centers", href: "#industries" },
+        { name: "Auto Service Centers", href: "#industries" },
         { name: "Multi-Location Groups", href: "#industries" },
         { name: "Auto Finance Providers", href: "#industries" },
         { name: "Warranty Providers", href: "#industries" }
