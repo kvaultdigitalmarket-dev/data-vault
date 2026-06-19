@@ -170,7 +170,7 @@ export default function PrivacyPolicy() {
                 <div className="bg-slate-50 border border-slate-100 rounded-xl p-4 mt-4 text-xs font-semibold text-slate-700">
                   <p className="text-slate-950 font-bold">Data Vault Technology Trust Team</p>
                   <p className="mt-1">Email: contact@Datavaultcenter.com</p>
-                  <p>Address: 100 Enterprise Boulevard, Suite 500, New York, NY 10001</p>
+                  <p>Address: 2nd floor kataria arcade, nr. Adani vidya mandir, Makarba, Sg-Highway, Ahmedabad, Gujarat 380051</p>
                 </div>
               </section>
 
