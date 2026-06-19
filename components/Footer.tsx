@@ -132,7 +132,7 @@ export default function Footer({ onBookDemoClick }: FooterProps) {
             </span>
             <span className="text-slate-300 text-xs">|</span>
             <span className="text-xs text-slate-400 font-medium select-none">
-              © {new Date().getFullYear()} Data Vault Technology Group.
+              © 2026 Data Vault. Operated by Kataria Tech, a division of Kataria Group. All rights reserved.
             </span>
           </div>
 
