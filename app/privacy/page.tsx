@@ -17,10 +17,9 @@ export default function PrivacyPolicy() {
     { id: "introduction", title: "1. Introduction" },
     { id: "data-collection", title: "2. Information We Collect" },
     { id: "data-usage", title: "3. How We Use Information" },
-    { id: "vault-security", title: "4. Data Vault Storage & Security" },
-    { id: "data-sharing", title: "5. Information Sharing" },
-    { id: "compliance", title: "6. Regulatory Compliance (GDPR, CCPA)" },
-    { id: "contact-us", title: "7. Contact Information" }
+    { id: "vault-security", title: "4. Data Storage & Security" },
+    { id: "your-rights", title: "5. Data Retention & Your Rights" },
+    { id: "contact-us", title: "6. Contact" }
   ];
 
   return (
@@ -50,7 +49,7 @@ export default function PrivacyPolicy() {
             </h1>
             <p className="text-sm text-slate-500 flex items-center gap-1.5 mt-3 font-medium">
               <Calendar className="w-4 h-4" />
-              Last Updated: June 18, 2026
+              Last Updated: August 13, 2026
             </p>
           </div>
 
@@ -82,10 +81,10 @@ export default function PrivacyPolicy() {
               <section id="introduction" className="scroll-mt-28">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">1. Introduction</h3>
                 <p>
-                  At Data Vault Technology Group, we recognize the critical importance of privacy, information security, and audit integrity. This Privacy Policy details how we collect, store, clean, analyze, and route information generated when subscribing to our Centralized Data Vault, CRM integrations, finance connectors, KCP service plan systems, and automated WhatsApp campaign APIs.
+                  Data Vault Center is an automotive technology company based in Ahmedabad, India, that builds CRM, ERP, and dealer engagement software for car sales and service businesses. This Privacy Policy explains how we handle the information generated when you and your dealership use our platform.
                 </p>
                 <p className="mt-4">
-                  By accessing or utilizing our platform, you acknowledge and agree that your enterprise data will be governed, normalized, and protected in strict accordance with the controls defined in this document.
+                  We handle this data on behalf of the dealerships and automotive groups who use the platform, in line with applicable Indian law, including the Digital Personal Data Protection Act, 2023.
                 </p>
               </section>
 
@@ -93,20 +92,23 @@ export default function PrivacyPolicy() {
               <section id="data-collection" className="scroll-mt-28">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">2. Information We Collect</h3>
                 <p>
-                  To deliver a unified source of truth for automotive retail networks, our Centralized Data Vault ingests the following parameters:
+                  To deliver a unified source of truth for automotive retail networks, the Platform processes the following categories of information:
                 </p>
                 <ul className="list-disc pl-6 space-y-3 mt-4 text-sm font-semibold text-slate-700">
                   <li>
-                    <span className="text-slate-900 font-extrabold">Dealer Management System (DMS) Feeds:</span> Inventory lists, purchase orders, client IDs, test drive schedules, and back-office transaction logs.
+                    <span className="text-slate-900 font-extrabold">Account &amp; User Data:</span> Names, business email addresses, roles, and login credentials of dealership staff who access the Platform.
                   </li>
                   <li>
-                    <span className="text-slate-900 font-extrabold">Customer Profiles:</span> First and last names, work emails, phone coordinates, credit ratings, vehicle identifications (VINs), and historical maintenance logs.
+                    <span className="text-slate-900 font-extrabold">Dealer Management System (DMS) Feeds:</span> Vehicle inventory, purchase and booking orders, test-drive schedules, service job cards, and back-office transaction logs.
                   </li>
                   <li>
-                    <span className="text-slate-900 font-extrabold">Communication Metadata:</span> Delivery states, click rates, reply messages, and campaign templates sent via automated WhatsApp channels.
+                    <span className="text-slate-900 font-extrabold">End-Customer Records (processed for Clients):</span> Names, contact details, vehicle identification numbers (VINs), registration and finance details, and service history that a Client uploads or syncs to run its CRM and ERP workflows.
                   </li>
                   <li>
-                    <span className="text-slate-900 font-extrabold">Device Telemetry:</span> Fuel tracking, connected vehicle sensor outputs, and sync delay records logged from car dashboards.
+                    <span className="text-slate-900 font-extrabold">Messaging Metadata:</span> Opt-in status, delivery and read receipts, template identifiers, and reply status for WhatsApp, SMS, and email communications sent on a Client&apos;s behalf.
+                  </li>
+                  <li>
+                    <span className="text-slate-900 font-extrabold">Usage &amp; Device Data:</span> Log data, IP address, browser type, and feature-usage records used to secure and improve the Platform.
                   </li>
                 </ul>
               </section>
@@ -115,62 +117,49 @@ export default function PrivacyPolicy() {
               <section id="data-usage" className="scroll-mt-28">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">3. How We Use Information</h3>
                 <p>
-                  All data ingested by the Vault is processed to deliver structured intelligence:
+                  Information processed through the Platform is used to:
                 </p>
                 <ul className="list-disc pl-6 space-y-3 mt-4 text-sm font-semibold text-slate-700">
-                  <li>To establish unified client database profiles, eliminating duplicate CRM records.</li>
-                  <li>To verify refinance rates and credit limits against lending criteria.</li>
-                  <li>To dispatch service notifications, recall announcements, and scheduling confirmations.</li>
-                  <li>To generate real-time metrics dashboards, financial breakdowns, and inventory projections.</li>
+                  <li>Provide unified CRM and ERP profiles and remove duplicate customer records for our Clients.</li>
+                  <li>Support sales, finance, refinance, and KCP service-plan workflows configured by the Client.</li>
+                  <li>Send service reminders, booking confirmations, and campaign messages that end-customers have opted in to receive.</li>
+                  <li>Generate dashboards, sales and inventory analytics, and operational reports for the Client.</li>
+                  <li>Maintain security, prevent fraud and abuse, and meet our legal obligations.</li>
                 </ul>
+                <p className="mt-4">
+                  We do not use end-customer personal data for our own independent marketing, and we do not sell it.
+                </p>
               </section>
 
-              {/* Data Vault Storage & Security */}
+              {/* Data Storage & Security */}
               <section id="vault-security" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">4. Data Vault Storage & Security</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">4. Data Storage &amp; Security</h3>
                 <p>
-                  Our architecture is engineered on security best practices:
-                </p>
-                <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 mt-4 space-y-4">
-                  <p className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-2">Technical Guardrails</p>
-                  <p className="text-xs text-slate-500 font-medium">
-                    <span className="text-slate-900 font-extrabold">Encryption:</span> In-transit records are secured using TLS 1.3 pipelines. Inactive database states are encrypted using AES-256 blocks.
-                  </p>
-                  <p className="text-xs text-slate-500 font-medium">
-                    <span className="text-slate-900 font-extrabold">Isolation:</span> Separate virtual logical blocks segregate customer documents between dealership networks, preventing accidental data bleed.
-                  </p>
-                  <p className="text-xs text-slate-500 font-medium">
-                    <span className="text-slate-900 font-extrabold">Audits:</span> Write-once-read-many (WORM) parameters record changes deterministically, providing complete historical audits for regulatory compliance.
-                  </p>
-                </div>
-              </section>
-
-              {/* Information Sharing */}
-              <section id="data-sharing" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">5. Information Sharing</h3>
-                <p>
-                  We do not rent, monetize, or sell customer databases to advertising networks. Ingestion streams are only shared with third-party components under direct client delegation (e.g. dispatching API coordinates to local finance lenders or registering messages with WhatsApp business channels).
+                  We take reasonable steps to keep your data safe. Information is stored securely on trusted cloud servers, and access is limited to authorised staff who need it to run the platform. Each dealership&apos;s data is kept separate from others, and platform data is primarily hosted in India.
                 </p>
               </section>
 
-              {/* Regulatory Compliance */}
-              <section id="compliance" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">6. Regulatory Compliance (GDPR, CCPA)</h3>
+              {/* Data Retention & Your Rights */}
+              <section id="your-rights" className="scroll-mt-28">
+                <h3 className="text-xl font-bold text-slate-900 mb-4">5. Data Retention &amp; Your Rights</h3>
                 <p>
-                  Depending on your operating location, users are granted rights regarding their personal profiles. The system maintains direct database deletion pipelines and CSV exportation controls, helping you meet General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) standards.
+                  We retain Platform data for as long as a Client&apos;s subscription is active and as required to provide the service or meet legal obligations. On termination, Client data is available for export for a limited period and is then deleted from active systems, subject to backup rotation cycles.
+                </p>
+                <p className="mt-4">
+                  Under the DPDP Act and comparable laws, individuals may request access to, correction of, or erasure of their personal data, and may withdraw consent. Because we act as a processor, such requests from end-customers are generally directed to the relevant dealership (the data fiduciary), and we will support the Client in fulfilling them.
                 </p>
               </section>
 
-              {/* Contact Information */}
+              {/* Contact */}
               <section id="contact-us" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">7. Contact Information</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">6. Contact</h3>
                 <p>
-                  If you have questions regarding our data policies, SOC-2 certification reports, or database structures, please contact our Information Security office:
+                  If you have any questions about this Privacy Policy, please reach out to us:
                 </p>
                 <div className="bg-slate-50 border border-slate-100 rounded-xl p-4 mt-4 text-xs font-semibold text-slate-700">
-                  <p className="text-slate-950 font-bold">Data Vault Technology Trust Team</p>
-                  <p className="mt-1">Email: contact@Datavaultcenter.com</p>
-                  <p>Address: 2nd floor kataria arcade, nr. Adani vidya mandir, Makarba, Sg-Highway, Ahmedabad, Gujarat 380051</p>
+                  <p className="text-slate-950 font-bold">Data Vault Center</p>
+                  <p className="mt-1">Email: contact@datavaultcenter.com</p>
+                  <p>Address: 2nd Floor, Kataria Arcade, nr. Adani Vidya Mandir, Makarba, SG Highway, Ahmedabad, Gujarat 380051, India</p>
                 </div>
               </section>
 

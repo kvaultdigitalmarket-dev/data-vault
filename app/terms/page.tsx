@@ -16,11 +16,12 @@ export default function TermsAndConditions() {
   const sections = [
     { id: "acceptance", title: "1. Acceptance of Terms" },
     { id: "scope", title: "2. Scope of Service" },
-    { id: "fees", title: "3. Account Fees & Billing" },
-    { id: "ip", title: "4. Intellectual Property" },
-    { id: "liability", title: "5. Limitation of Liability" },
-    { id: "termination", title: "6. Agreement Termination" },
-    { id: "governing-law", title: "7. Governing Law" }
+    { id: "fees", title: "3. Fees, Billing & GST" },
+    { id: "acceptable-use", title: "4. Acceptable Use & Messaging" },
+    { id: "ip", title: "5. Intellectual Property" },
+    { id: "liability", title: "6. Limitation of Liability" },
+    { id: "termination", title: "7. Termination" },
+    { id: "governing-law", title: "8. Governing Law" }
   ];
 
   return (
@@ -50,7 +51,7 @@ export default function TermsAndConditions() {
             </h1>
             <p className="text-sm text-slate-500 flex items-center gap-1.5 mt-3 font-medium">
               <Calendar className="w-4 h-4" />
-              Last Updated: June 18, 2026
+              Last Updated: August 13, 2026
             </p>
           </div>
 
@@ -82,10 +83,7 @@ export default function TermsAndConditions() {
               <section id="acceptance" className="scroll-mt-28">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">1. Acceptance of Terms</h3>
                 <p>
-                  These Terms and Conditions of Service ("Agreement") govern the license, subscription, and access to all database systems, APIs, user portals, and software tools provided by Data Vault Technology Group. By executing a digital order sheet, registering a user account, or utilizing the Data Vault platform, your automotive group ("Client") agrees to be bound by these conditions.
-                </p>
-                <p className="mt-4">
-                  If you are executing this Agreement on behalf of a multi-location dealer group, franchised showroom, or financial provider, you represent that you hold the legal authority to bind that entity to these conditions.
+                  These Terms &amp; Conditions apply to the use of the software and services provided by Data Vault Center, an automotive technology company based in Ahmedabad, India. By signing up or using our platform, your dealership agrees to these terms.
                 </p>
               </section>
 
@@ -93,63 +91,55 @@ export default function TermsAndConditions() {
               <section id="scope" className="scroll-mt-28">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">2. Scope of Service</h3>
                 <p>
-                  Data Vault Technology Group provides a centralized SaaS data warehousing layer:
+                  We provide a cloud-based CRM and ERP platform for car sales and service businesses. This includes tools for leads, sales, service, inventory, finance, and customer messaging. We aim to keep the platform available and reliable, but occasional maintenance or downtime may occur.
                 </p>
-                <ul className="list-disc pl-6 space-y-3 mt-4 text-sm font-semibold text-slate-700">
-                  <li>
-                    <span className="text-slate-900 font-extrabold">Service Uptime:</span> We target a 99.99% system availability rate for API endpoint requests, calculated monthly.
-                  </li>
-                  <li>
-                    <span className="text-slate-900 font-extrabold">Data Hosting:</span> Customer records, inventory lists, and finance logs are stored within secure virtual cloud server nodes.
-                  </li>
-                  <li>
-                    <span className="text-slate-900 font-extrabold">Integrations:</span> While we provide API connectors for standard DMS brands, operational uptime of third-party software remains the responsibility of their respective providers.
-                  </li>
-                </ul>
               </section>
 
-              {/* Fees & Billing */}
+              {/* Fees, Billing & GST */}
               <section id="fees" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">3. Account Fees & Billing</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">3. Fees, Billing &amp; GST</h3>
                 <p>
-                  Subscriptions are billed in monthly cycles, unless specified otherwise in an Enterprise Agreement:
+                  Fees are quoted in Indian Rupees (INR) and are subject to GST as per Indian law. Invoices are payable within the agreed period, and overdue payments may lead to a temporary pause in service until dues are cleared.
                 </p>
-                <ul className="list-disc pl-6 space-y-3 mt-4 text-sm font-semibold text-slate-700">
-                  <li>Invoicing occurs on the first calendar day of each month. Payments are due within 30 days.</li>
-                  <li>Unpaid subscriptions exceeding 15 days past due are subject to temporary service suspension.</li>
-                  <li>Platform pricing is based on active location counts, active DMS sync instances, and WhatsApp messaging volumes.</li>
-                </ul>
+              </section>
+
+              {/* Acceptable Use & Messaging */}
+              <section id="acceptable-use" className="scroll-mt-28">
+                <h3 className="text-xl font-bold text-slate-900 mb-4">4. Acceptable Use &amp; Messaging</h3>
+                <p>
+                  You are responsible for how you use the platform and how you communicate with your customers. In particular, you agree to only use data you are allowed to use, to get proper consent before sending WhatsApp, SMS, or email messages, and to follow WhatsApp and applicable Indian messaging rules. The platform must not be used for spam or any unlawful activity.
+                </p>
               </section>
 
               {/* Intellectual Property */}
               <section id="ip" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">4. Intellectual Property</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">5. Intellectual Property</h3>
                 <p>
-                  Data Vault Technology Group retains all ownership, patents, design designs, and copyright interests relating to our databases, dashboard modules, styling structures, and automated scheduling systems. The Client retains absolute ownership and legal control of all customer records, transactions, and inventories routed through or stored within the Vault.
+                  We own the platform, including its software and design. You keep full ownership of your own business and customer data that you store or manage through the platform.
                 </p>
               </section>
 
               {/* Limitation of Liability */}
               <section id="liability" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">5. Limitation of Liability</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">6. Limitation of Liability</h3>
                 <p>
-                  To the maximum extent permitted by law, Data Vault Technology Group shall not be liable for indirect, incidental, special, or consequential damages, including but not limited to loss of business revenues, profit records, or system interruptions resulting from third-party DMS outages, internet access failures, or data sync delays.
+                  We work hard to keep the platform running smoothly, but we are not responsible for losses caused by things outside our control, such as internet outages, third-party system failures, or delays from messaging providers. Our liability is limited to the fees you have paid us in the previous twelve months.
                 </p>
               </section>
 
               {/* Termination */}
               <section id="termination" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">6. Agreement Termination</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">7. Termination</h3>
                 <p>
-                  Either party may terminate a subscription by providing 30 days written notice prior to the next billing cycle. Upon termination, client databases will remain accessible for exportation for 60 days, after which they will be permanently scrubbed from our active data layers.
+                  Either side may end the subscription with reasonable written notice. After the subscription ends, your data will be available to export for a limited time and then removed from our active systems.
                 </p>
               </section>
 
               {/* Governing Law */}
               <section id="governing-law" className="scroll-mt-28">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">7. Governing Law</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">8. Governing Law</h3>
                 <p>
-                  This Agreement, and any disputes arising from your use of the platform, will be governed by and constructed in accordance with the laws of the State of New York, without giving effect to conflicts of law guidelines.
+                  These terms are governed by the laws of India, and any disputes will be handled by the courts of Ahmedabad, Gujarat.
                 </p>
               </section>
 
